@@ -16,9 +16,15 @@ import Hotelviewpage from "./Hotelviewpage";
 import TestHotelviewpage from "./TestHotelviewpage";
 import Chatbot from "./Chatbot";
 
-// New optimized components
+// UI Components
 import LoadingSpinner from "./ui/LoadingSpinner";
 import ErrorMessage from "./ui/ErrorMessage";
+import GlassCard from "./ui/GlassCard";
+import AnimatedButton from "./ui/AnimatedButton";
+import GradientText from "./ui/GradientText";
+import FloatingElement from "./ui/FloatingElement";
+
+// Feature Components
 import RoomCard from "./rooms/RoomCard";
 import RoomsList from "./rooms/RoomsList";
 import SessionCard from "./sessions/SessionCard";
@@ -42,9 +48,14 @@ export {
   Hotelviewpage,
   TestHotelviewpage,
   Chatbot,
-  // New components
+  // UI Components
   LoadingSpinner,
   ErrorMessage,
+  GlassCard,
+  AnimatedButton,
+  GradientText,
+  FloatingElement,
+  // Feature Components
   RoomCard,
   RoomsList,
   SessionCard,

@@ -1,3 +1,4 @@
+
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Steps from "./Steps";
@@ -14,6 +15,15 @@ import Search from "./Search";
 import Hotelviewpage from "./Hotelviewpage";
 import TestHotelviewpage from "./TestHotelviewpage";
 import Chatbot from "./Chatbot";
+
+// New optimized components
+import LoadingSpinner from "./ui/LoadingSpinner";
+import ErrorMessage from "./ui/ErrorMessage";
+import RoomCard from "./rooms/RoomCard";
+import RoomsList from "./rooms/RoomsList";
+import SessionCard from "./sessions/SessionCard";
+import DateSelector from "./calendar/DateSelector";
+import MealTypeSelector from "./hotel/MealTypeSelector";
 
 export {
   HomePage,
@@ -32,4 +42,12 @@ export {
   Hotelviewpage,
   TestHotelviewpage,
   Chatbot,
+  // New components
+  LoadingSpinner,
+  ErrorMessage,
+  RoomCard,
+  RoomsList,
+  SessionCard,
+  DateSelector,
+  MealTypeSelector,
 };
